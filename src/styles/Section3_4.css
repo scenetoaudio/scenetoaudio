@@ -1,0 +1,139 @@
+.section3_4-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section3_4-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .section3_4-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .section3_4-header p {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  
+  .section3_4-content {
+    margin-top: 40px;
+  }
+  
+  .section3_4-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .section3_4-table th,
+  .section3_4-table td {
+    border: 1px solid #ddd;
+    padding: 0; /* Remove padding from cells */
+    text-align: center;
+    vertical-align: middle; /* Align content to the top */
+  }
+  
+  .section3_4-table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    padding: 8px; /* Add a bit of padding to header cells for readability */
+  }
+  
+  /* .section3_4-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .section3_4-table tr:hover {
+    background-color: #f1f1f1;
+  } */
+  
+  /* Ensure subtables fill the parent cell */
+  .section3_4-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .section3_4-table table th {
+    border-left: 0.75px solid #ddd;
+    border-right: 0.75px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    /* border: none; */
+    padding: 8px; /* Optional: add some padding for inner tables */
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .section3_4-table table td {
+    border-left: 0.75px solid #ddd;
+    border-right: 0.75px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    /* border: none; */
+    padding: 8px; /* Optional: add some padding for inner tables */
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .section3_4-table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .section3_4-table table .upper-row {
+    border-bottom: 0.75px solid #ddd;
+  }
+
+  .section3_4-table table .lower-row {
+    border-top: none;
+  }
+
+  .section3_4-table table .upper-row td {
+    width: 30%;
+  }
+
+  .correct-image {
+    width: 33%;
+  }
+
+  .distractor-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adjust spacing between images if needed */
+  }
+  
+  .distractor-images img {
+    width: calc(33.33% - 10px); /* Ensure images take up equal width, adjust based on gap */
+    height: auto;
+    display: block;
+  }
+
+  .back-to-home {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .back-to-home:hover {
+    text-decoration: underline;
+  }
+
+  .audio-cells audio {
+    width: 100%; /* Make the audio player take up the full width of the cell */
+    display: block; /* Ensure the audio player is treated as a block element */
+  }

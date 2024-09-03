@@ -1,0 +1,3 @@
+Turnstile beeping, discrete
+People walking, continuous
+Church bells ringing, discrete
