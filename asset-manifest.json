@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc3f736a.css",
-    "main.js": "/static/js/main.512bd4db.js",
-    "static/js/453.a8a550a7.chunk.js": "/static/js/453.a8a550a7.chunk.js",
-    "index.html": "/index.html",
-    "main.fc3f736a.css.map": "/static/css/main.fc3f736a.css.map",
-    "main.512bd4db.js.map": "/static/js/main.512bd4db.js.map",
-    "453.a8a550a7.chunk.js.map": "/static/js/453.a8a550a7.chunk.js.map"
+    "main.css": "/scenetoaudio/static/css/main.fc3f736a.css",
+    "main.js": "/scenetoaudio/static/js/main.1743431a.js",
+    "static/js/453.a8a550a7.chunk.js": "/scenetoaudio/static/js/453.a8a550a7.chunk.js",
+    "index.html": "/scenetoaudio/index.html",
+    "main.fc3f736a.css.map": "/scenetoaudio/static/css/main.fc3f736a.css.map",
+    "main.1743431a.js.map": "/scenetoaudio/static/js/main.1743431a.js.map",
+    "453.a8a550a7.chunk.js.map": "/scenetoaudio/static/js/453.a8a550a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc3f736a.css",
-    "static/js/main.512bd4db.js"
+    "static/js/main.1743431a.js"
   ]
 }
