@@ -6,11 +6,11 @@ import Section5 from './components/Section5';
 
 function App() {
   return (
-    <Router>
+    <Router> basename={process.env.PUBLIC_URL}
       <Routes>
-        <Route path="/scenetoaudio" element={<LandingPage />} />
-        <Route path="/scenetoaudio/section-3-4" element={<Section3_4 />} />
-        <Route path="/scenetoaudio/section-5" element={<Section5 />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/section-3-4" element={<Section3_4 />} />
+        <Route path="/section-5" element={<Section5 />} />
       </Routes>
     </Router>
   );
