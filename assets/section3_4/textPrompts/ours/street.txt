@@ -1,0 +1,3 @@
+People walking, continuous
+Vehicle engines idling, continuous
+Traffic signal beeping, discrete

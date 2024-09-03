@@ -1,0 +1,4 @@
+Cows mooing, discrete
+Leaves rustling, continuous
+Church bell ringing, discrete
+Birds chirping, discrete

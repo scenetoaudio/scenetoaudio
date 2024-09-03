@@ -1,0 +1,3 @@
+Water rippling, continuous
+Birds chirping, discrete
+Leaves rustling, continuous

@@ -1,0 +1,4 @@
+Water flowing, continuous
+Trees rustling, continuous
+Wind blowing, continuous
+Birds chirping, discrete

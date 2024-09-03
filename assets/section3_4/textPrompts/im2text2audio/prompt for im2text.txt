@@ -1,0 +1,1 @@
+describe this scene to a blind person in one sentence, and in simple words.
