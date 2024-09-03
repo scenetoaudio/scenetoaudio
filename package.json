@@ -2,7 +2,7 @@
   "name": "scenetoaudio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://scenetoaudio.github.io/scenetoaudio",
+  "homepage": "https://scenetoaudio.github.io/scenetoaudio/",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
