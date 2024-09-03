@@ -1,3 +1,6 @@
+/* IMPORTANT: All image and sound paths currently have the prefix "/scenetoaudio" because the app is hosted on GitHub Pages.
+If you are hosting your app on a different platform, you may need to remove this prefix. */
+
 import React from 'react';
 import '../styles/LandingPage.css';
 
@@ -13,7 +16,7 @@ const LandingPage = () => {
         {/* Video Section */}
         <div className="video-container">
           <video width="100%" controls>
-            <source src="/assets/common/xylophone.mp4" type="video/mp4" />
+            <source src={`${process.env.PUBLIC_URL}/assets/common/xylophone.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <p className='video-caption'>Demo Video: Scene-to-Audio</p>
@@ -26,11 +29,11 @@ const LandingPage = () => {
             <li>
               <h3>Section 3: Scene-To-Audio Framework For Automatic Vista Scene Sonification</h3>
               <ul>
-                <li><h4><a href="/section-3-4">Section 3.4: Evaluation Design</a></h4></li>
+                <li><h4><a href="/scenetoaudio/#/section-3-4">Section 3.4: Evaluation Design</a></h4></li>
               </ul>
             </li>
             <li>
-              <a href="/section-5"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: User Evaluation (PVI)</h3></a>
+              <a href="/scenetoaudio/#/section-5"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: User Evaluation (PVI)</h3></a>
             </li>
           </ul>
         </section>

@@ -1,3 +1,6 @@
+/* IMPORTANT: All image and sound paths currently have the prefix "/scenetoaudio" because the app is hosted on GitHub Pages.
+If you are hosting your app on a different platform, you may need to remove this prefix. */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Section3_4.css';
@@ -37,12 +40,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/countryside.png" alt="Countryside" />
+                        <img src="/scenetoaudio/assets/section3_4/images/countryside.png" alt="Countryside" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/countryside1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/countryside2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/countryside3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/countryside1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/countryside2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/countryside3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -79,19 +82,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -115,12 +118,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/mountains.jpeg" alt="Mountains" />
+                        <img src="/scenetoaudio/assets/section3_4/images/mountains.jpeg" alt="Mountains" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/mountains1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/mountains2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/mountains3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/mountains1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/mountains2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/mountains3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -155,19 +158,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -191,12 +194,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/reservoir.png" alt="Reservoir" />
+                        <img src="/scenetoaudio/assets/section3_4/images/reservoir.png" alt="Reservoir" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/reservoir1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/reservoir2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/reservoir3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/reservoir1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/reservoir2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/reservoir3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -233,19 +236,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -269,12 +272,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/seabeach.jpeg" alt="Sea Beach" />
+                        <img src="/scenetoaudio/assets/section3_4/images/seabeach.jpeg" alt="Sea Beach" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/seabeach1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/seabeach2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/seabeach3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/seabeach1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/seabeach2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/seabeach3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -309,19 +312,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -345,12 +348,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/foodcourt.jpg" alt="Food Court" />
+                        <img src="/scenetoaudio/assets/section3_4/images/foodcourt.jpg" alt="Food Court" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/foodcourt1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/foodcourt2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/foodcourt3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/foodcourt1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/foodcourt2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/foodcourt3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -386,19 +389,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/foodcourt.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/foodcourt.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/foodcourt.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/foodcourt.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/foodcourt.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/foodcourt.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -422,12 +425,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/park.jpeg" alt="Park" />
+                        <img src="/scenetoaudio/assets/section3_4/images/park.jpeg" alt="Park" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/park1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/park2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/park3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/park1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/park2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/park3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -463,19 +466,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/park.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/park.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/park.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/park.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/park.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/park.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -499,12 +502,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/street.jpeg" alt="Street" />
+                        <img src="/scenetoaudio/assets/section3_4/images/street.jpeg" alt="Street" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/street1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/street2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/street3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/street1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/street2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/street3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -540,19 +543,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -576,12 +579,12 @@ const Section3_4 = () => {
                   <tbody>
                     <tr>
                       <td className="correct-image">
-                        <img src="/assets/section3_4/images/cityhallMRT.jpeg" alt="Train Station" />
+                        <img src="/scenetoaudio/assets/section3_4/images/cityhallMRT.jpeg" alt="Train Station" />
                       </td>
                       <td className="distractor-images">
-                        <img src="/assets/section3_4/images/cityhallMRT1.jpg" alt="First distractor" />
-                        <img src="/assets/section3_4/images/cityhallMRT2.jpg" alt="Second distractor" />
-                        <img src="/assets/section3_4/images/cityhallMRT3.jpg" alt="Third distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/cityhallMRT1.jpg" alt="First distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/cityhallMRT2.jpg" alt="Second distractor" />
+                        <img src="/scenetoaudio/assets/section3_4/images/cityhallMRT3.jpg" alt="Third distractor" />
                       </td>
                     </tr>
                   </tbody>
@@ -617,19 +620,19 @@ const Section3_4 = () => {
                       <th>Generated Audio</th>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2wav/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2wav/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/im2text2audio/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/im2text2audio/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/assets/section3_4/sounds/ours/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section3_4/sounds/ours/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
