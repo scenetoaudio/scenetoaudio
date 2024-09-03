@@ -13,7 +13,7 @@ const LandingPage = () => {
         {/* Video Section */}
         <div className="video-container">
           <video width="100%" controls>
-            <source src={`${process.env.PUBLIC_URL}/assets/common/xylophone.mp4`} type="video/mp4" />
+            <source src="/assets/common/xylophone.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <p className='video-caption'>Demo Video: Scene-to-Audio</p>

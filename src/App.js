@@ -6,7 +6,7 @@ import Section5 from './components/Section5';
 
 function App() {
   return (
-    <Router> basename={process.env.PUBLIC_URL}
+    <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/section-3-4" element={<Section3_4 />} />
