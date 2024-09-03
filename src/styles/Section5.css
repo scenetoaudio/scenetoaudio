@@ -100,3 +100,8 @@
   width: 100%; /* Make the audio player take up the full width of the cell */
   display: block; /* Ensure the audio player is treated as a block element */
 }
+
+.landing-footer {
+  font-size: 0.875rem;
+  color: #777;
+}

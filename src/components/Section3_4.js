@@ -644,6 +644,9 @@ const Section3_4 = () => {
           </tbody>
         </table>
       </main>
+      <footer className="landing-footer">
+        <p>Research Paper for CHI 2025</p>
+      </footer>
     </div>
   );
 };
