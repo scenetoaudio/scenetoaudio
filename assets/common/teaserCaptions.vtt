@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:06.160
+We present "Scene-to-Audio," a novel framework to 
+convert distant scene images into representative
+
+00:00:06.160 --> 00:00:13.120
+audio to provide a comprehensible and engaging 
+experience for blind and low vision people.
+
+00:00:13.120 --> 00:00:17.960
+Vista scenes, like scenic landscapes, 
+are essential for leisure and situational
+
+00:00:17.960 --> 00:00:24.440
+awareness. Experiencing them is important 
+for one’s cognitive and aesthetic needs. Yet,
+
+00:00:24.440 --> 00:00:30.000
+these experiences remain inaccessible 
+to people with visual impairments.
+
+00:00:30.000 --> 00:00:33.040
+Existing solutions like the app BeMyAI rely
+
+00:00:33.040 --> 00:00:38.200
+heavily on spoken descriptions. These speech 
+descriptions often impose a high cognitive
+
+00:00:38.200 --> 00:00:43.800
+load and they lack immersive qualities 
+necessary for an enjoyable experience.
+
+00:00:43.800 --> 00:00:49.040
+In this paper, we proposed a novel framework 
+called 'Scene-to-Audio' that generates
+
+00:00:49.040 --> 00:00:55.480
+non-verbal sounds to represent key elements 
+of distant scenes. It identifies sound-making
+
+00:00:55.480 --> 00:01:00.160
+objects in the scene and produces 
+non-verbal audio using a combination
+
+00:01:00.160 --> 00:01:04.400
+of psycho-acoustics and foley sound synthesis.
+
+00:01:33.680 --> 00:01:37.560
+Through a listening test with 21 
+participants we show that the sounds
+
+00:01:37.560 --> 00:01:42.280
+generated from our framework represent 
+the scene better than baseline techniques,
+
+00:01:42.280 --> 00:01:47.880
+with a high scene recognition accuracy 
+and a high pleasantness rating.
+
+00:01:47.880 --> 00:01:53.880
+Through a pilot study with blind and low vision 
+users or BLVs, we co-designed four auditory
+
+00:01:53.880 --> 00:02:01.400
+feedback strategies to enhance their scene 
+experience: Speech-only, Audio-only, Overlay, and
+
+00:02:01.400 --> 00:02:17.280
+Overlay Concat. Here is an example: Speech-only.
+Audio-only, which is the non-verbal audio
+
+00:02:17.280 --> 00:02:27.120
+generated from scene-to-audio framework
+Overlay, which is speech overlaid
+
+00:02:27.120 --> 00:02:38.960
+on non-verbal sounds,
+And Overlay concat, which is a
+
+00:02:38.960 --> 00:02:44.680
+sequential audio representation of different parts 
+of the scene, along with the corresponding speech.
+
+00:03:00.160 --> 00:03:07.960
+In a user study with 11 PVI participants, we 
+compared these sonification strategies. Overlay
+
+00:03:07.960 --> 00:03:12.480
+audio was preferred the most and rated 
+to be significantly more immersive, and
+
+00:03:12.480 --> 00:03:18.920
+engaging than the speech-only audio, while also 
+being comprehensible and low in cognitive load.
+
+00:03:18.920 --> 00:03:23.560
+We envision integrating this framework 
+with existing wearable technologies to
+
+00:03:23.560 --> 00:03:28.560
+provide engaging and immersive audio 
+experiences for Vista scenes for BLVs.
