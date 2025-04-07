@@ -35,6 +35,15 @@ const LandingPage = () => {
             <li>
               <a href="/scenetoaudio/#/section-5"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: User Evaluation (PVI)</h3></a>
             </li>
+            <li>
+              <a 
+                href="https://docs.google.com/spreadsheets/d/11EFl-tRV5r21kQXpxFd7gwmI9UyZVaftbAQorsNyQIA/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 6: In-The-Wild Study</h3>
+              </a>
+            </li>
           </ul>
         </section>
         <hr />
