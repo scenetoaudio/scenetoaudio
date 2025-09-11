@@ -20,7 +20,7 @@ Landscapes</h1>
             <source src={`${process.env.PUBLIC_URL}/assets/common/teaser.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p className='video-caption'>Demo Video: Scene-to-Audio</p>
+          <p className='video-caption'>Demo Video: Beyond Descriptions</p>
         </div>
         <hr />
         {/* Index Section */}
