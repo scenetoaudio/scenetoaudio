@@ -49,7 +49,7 @@ const LandingPage = () => {
         <hr />
       </section>
       <footer className="landing-footer">
-        <p>Research Paper for CHI 2025</p>
+        <p>Research Paper for CHI 2026</p>
       </footer>
     </div>
   );
