@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scenetoaudio/static/css/main.d712badb.css",
-    "main.js": "/scenetoaudio/static/js/main.eacf106f.js",
+    "main.css": "/scenetoaudio/static/css/main.590b1f1d.css",
+    "main.js": "/scenetoaudio/static/js/main.8c0b24a4.js",
     "static/js/453.a8a550a7.chunk.js": "/scenetoaudio/static/js/453.a8a550a7.chunk.js",
     "index.html": "/scenetoaudio/index.html",
-    "main.d712badb.css.map": "/scenetoaudio/static/css/main.d712badb.css.map",
-    "main.eacf106f.js.map": "/scenetoaudio/static/js/main.eacf106f.js.map",
+    "main.590b1f1d.css.map": "/scenetoaudio/static/css/main.590b1f1d.css.map",
+    "main.8c0b24a4.js.map": "/scenetoaudio/static/js/main.8c0b24a4.js.map",
     "453.a8a550a7.chunk.js.map": "/scenetoaudio/static/js/453.a8a550a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d712badb.css",
-    "static/js/main.eacf106f.js"
+    "static/css/main.590b1f1d.css",
+    "static/js/main.8c0b24a4.js"
   ]
 }
