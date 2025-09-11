@@ -41,7 +41,7 @@ const LandingPage = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 6: In-The-Wild Study</h3>
+                <h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: In-The-Wild Study</h3>
               </a>
             </li>
           </ul>
