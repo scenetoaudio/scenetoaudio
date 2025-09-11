@@ -13,7 +13,7 @@ const Section4 = () => {
         <Link to="/" className="back-to-home">
           ← Back to Home
         </Link>
-        <h1>Section 4: Using Scene2Audio Framework for Enhancing Scene Experience of BLV</h1>
+        <h1 style={{ maxWidth: "90%" }}>Section 4: Using Scene2Audio Framework for Enhancing Scene Experience of BLV</h1>
         <p>A comprehensive view of the sounds that were used in the formal user study.</p>
       </header>
 

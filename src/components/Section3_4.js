@@ -13,7 +13,7 @@ const Section3_4 = () => {
         <Link to="/" className="back-to-home">
           ← Back to Home
         </Link>
-        <h1>Section 3.4: Evaluation of the Scene2Audio Framework</h1>
+        <h1 style={{ maxWidth: "90%" }}>Section 3.4: Evaluation of the Scene2Audio&nbsp;Framework</h1>
         <p>An in-depth look at the images and sounds that were used to evaluate the Scene2Audio framework.</p>
       </header>
 
