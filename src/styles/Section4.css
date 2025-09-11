@@ -1,11 +1,11 @@
-.section5-container {
+.section4-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
 }
 
-.section5-header {
+.section4-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,13 +13,13 @@
   margin-bottom: 20px;
 }
 
-.section5-header h1 {
+.section4-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.section5-header p {
+.section4-header p {
   font-size: 1.25rem;
   font-weight: 400;
 }
@@ -38,30 +38,30 @@
   text-decoration: underline;
 }
 
-.section5-content {
+.section4-content {
   margin-top: 40px;
 }
 
-.section5-table {
+.section4-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-.section5-table th,
-.section5-table td {
+.section4-table th,
+.section4-table td {
   border: 1px solid #ddd;
   padding: 12px;
   text-align: center;
   vertical-align: middle;
 }
 
-.section5-table th {
+.section4-table th {
   background-color: #f4f4f4;
   font-weight: 600;
 }
 
-.section5-table img {
+.section4-table img {
   width: 100%;
   height: auto;
 }
@@ -92,7 +92,7 @@
   font-weight: 600;
 }
 
-.section5-table .subtable-container {
+.section4-table .subtable-container {
   padding: 0px;
 }
 

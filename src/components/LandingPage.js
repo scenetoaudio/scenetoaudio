@@ -33,7 +33,7 @@ const LandingPage = () => {
               </ul>
             </li>
             <li>
-              <a href="/scenetoaudio/#/section-5"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: User Evaluation (PVI)</h3></a>
+              <a href="/scenetoaudio/#/section-4"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 4: User Evaluation (PVI)</h3></a>
             </li>
             <li>
               <a 

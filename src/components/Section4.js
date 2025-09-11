@@ -3,22 +3,22 @@ If you are hosting your app on a different platform, you may need to remove this
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Section5.css';
+import '../styles/Section4.css';
 
-const Section5 = () => {
+const Section4 = () => {
   return (
-    <div className="section5-container">
-      <header className="section5-header">
+    <div className="section4-container">
+      <header className="section4-header">
         {/* Back to Home Link */}
         <Link to="/" className="back-to-home">
           ← Back to Home
         </Link>
-        <h1>Section 5: Formal User Study (with PVIs)</h1>
+        <h1>Section 4: Formal User Study (with PVIs)</h1>
         <p>A comprehensive view of the sounds that were used in the formal user study.</p>
       </header>
 
-      <main className="section5-content">
-        <table className="section5-table">
+      <main className="section4-content">
+        <table className="section4-table">
           <thead>
             <tr>
               <th>Scene Name</th>
@@ -31,7 +31,7 @@ const Section5 = () => {
             {/* Row 1 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Countryside</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/countryside.png" alt="Countryside Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/countryside.png" alt="Countryside Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -44,13 +44,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -62,13 +62,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/countryside.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/countryside.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -81,7 +81,7 @@ const Section5 = () => {
             {/* Row 2 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Mountains</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/mountains.jpeg" alt="Mountains Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/mountains.jpeg" alt="Mountains Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -94,13 +94,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -112,13 +112,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/mountains.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/mountains.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -131,7 +131,7 @@ const Section5 = () => {
             {/* Row 3 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Reservoir</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/reservoir.png" alt="Reservoir Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/reservoir.png" alt="Reservoir Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -144,13 +144,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -162,13 +162,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/reservoir.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/reservoir.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -181,7 +181,7 @@ const Section5 = () => {
             {/* Row 4 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Sea Beach</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/seabeach.jpeg" alt="Sea Beach Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/seabeach.jpeg" alt="Sea Beach Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -194,13 +194,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -212,13 +212,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/seabeach.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/seabeach.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -231,7 +231,7 @@ const Section5 = () => {
             {/* Row 5 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Food Court</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/foodcourt.jpg" alt="Food Court Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/foodcourt.jpg" alt="Food Court Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -244,13 +244,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/foodcourt2.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/foodcourt2.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/foodcourt2.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/foodcourt2.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -262,13 +262,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/foodcourt2.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/foodcourt2.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/foodcourt2.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/foodcourt2.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -281,7 +281,7 @@ const Section5 = () => {
             {/* Row 6 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Park</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/park.jpeg" alt="Park Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/park.jpeg" alt="Park Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -294,13 +294,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/park3.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/park3.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/park3.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/park3.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -312,13 +312,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/park3.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/park3.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/park3.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/park3.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -331,7 +331,7 @@ const Section5 = () => {
             {/* Row 7 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Street</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/street.jpeg" alt="Street Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/street.jpeg" alt="Street Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -344,13 +344,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -362,13 +362,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/street.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/street.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -381,7 +381,7 @@ const Section5 = () => {
             {/* Row 8 */}
             <tr>
               <td style={{ fontWeight: "bold" }}>Train Station</td>
-              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section5/referenceImages/cityhallMRT.jpeg" alt="Train Station Reference" /></td>
+              <td style={{ width: "35%" }}><img src="/scenetoaudio/assets/section4/referenceImages/cityhallMRT.jpeg" alt="Train Station Reference" /></td>
               <td className="subtable-container">
                 <table className="subtable">
                   <thead>
@@ -394,13 +394,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/audioOnly/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/audioOnly/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlay/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlay/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -412,13 +412,13 @@ const Section5 = () => {
                     <tr>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/overlayConcat/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/overlayConcat/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
                       <td>
                         <audio controls>
-                          <source src="/scenetoaudio/assets/section5/sounds/speechOnly/cityhallMRT.wav" type="audio/wav" />
+                          <source src="/scenetoaudio/assets/section4/sounds/speechOnly/cityhallMRT.wav" type="audio/wav" />
                           Your browser does not support the audio element.
                         </audio>
                       </td>
@@ -432,10 +432,10 @@ const Section5 = () => {
         </table>
       </main>
       <footer className="landing-footer">
-        <p>Research Paper for CHI 2025</p>
+        <p>Research Paper for CHI 2026</p>
       </footer>
     </div>
   );
 };
 
-export default Section5;
+export default Section4;

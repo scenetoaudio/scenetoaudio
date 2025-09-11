@@ -2,7 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import Section3_4 from './components/Section3_4';
-import Section5 from './components/Section5';
+import Section4 from './components/Section4';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/section-3-4" element={<Section3_4 />} />
-        <Route path="/section-5" element={<Section5 />} />
+        <Route path="/section-4" element={<Section4 />} />
       </Routes>
     </Router>
   );
