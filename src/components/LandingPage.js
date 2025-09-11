@@ -9,7 +9,8 @@ const LandingPage = () => {
     <div className="landing-container">
       <header className="landing-header">
         <p>Supplementary Webpage For</p>
-        <h1>Scene-to-Audio:<br /> Distant Scene Sonification for People with Visual Impairments</h1>
+        <h1>Beyond Descriptions:<br /> A Generative Scene2Audio Framework for Blind and Low-Vision Users to Experience Vista
+Landscapes</h1>
         <hr />
       </header>
       <section className="landing-content">
@@ -27,13 +28,13 @@ const LandingPage = () => {
           <h2>Index</h2>
           <ul className="index-list">
             <li>
-              <h3>Section 3: Scene-To-Audio Framework For Automatic Vista Scene Sonification</h3>
+              <h3>Section 3: Automatic Scene2Audio framework for Vista Space Sonification</h3>
               <ul>
-                <li><h4><a href="/scenetoaudio/#/section-3-4">Section 3.4: Evaluation Design</a></h4></li>
+                <li><h4><a href="/scenetoaudio/#/section-3-4">Section 3.4: Evaluation of the Scene2Audio Framework</a></h4></li>
               </ul>
             </li>
             <li>
-              <a href="/scenetoaudio/#/section-4"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 4: User Evaluation (PVI)</h3></a>
+              <a href="/scenetoaudio/#/section-4"><h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 4: Using Scene2Audio Framework for Enhancing Scene Experience of BLV</h3></a>
             </li>
             <li>
               <a 
@@ -41,7 +42,7 @@ const LandingPage = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: In-The-Wild Study</h3>
+                <h3 style={{ color: "#0066cc", marginBottom: "20px" }}>Section 5: In-the-Wild Study</h3>
               </a>
             </li>
           </ul>
